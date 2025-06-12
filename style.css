@@ -60,12 +60,3 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #3e8e41;
 }
-
-This CSS code adds basic styling to the form, including:
-
-- A container with a white background and a slight shadow
-- Labels and inputs with a consistent layout
-- Inputs and textarea with padding and borders
-- A submit button with a green background and white text
-
-You can customize the CSS to fit your desired design.
