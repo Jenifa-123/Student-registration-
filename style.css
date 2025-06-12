@@ -1,29 +1,71 @@
-<div class="form-container">
-    <h2>Student Registration</h2>
-    <form>
-      <label for="fullname">Full Name</label>
-      <input type="text" id="fullname" name="fullname" required>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
 
-      <label for="dob">Date of Birth</label>
-      <input type="date" id="dob" name="dob" required>
+.container {
+  width: 50%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
-      <label for="gender">Gender</label>
-      <select id="gender" name="gender" required>
-        <option value="">--Select--</option>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-        <option value="other">Other</option>
-      </select>
+label {
+  display: block;
+  margin-bottom: 10px;
+}
 
-      <label for="course">Course</label>
-      <input type="text" id="course" name="course" required>
+input[type="text"], input[type="email"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
-      <button type="submit">Register</button>
-    </form>
-  </div>
+select {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
-</body>
-</html>
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+This CSS code adds basic styling to the form, including:
+
+- A container with a white background and a slight shadow
+- Labels and inputs with a consistent layout
+- Inputs and textarea with padding and borders
+- A submit button with a green background and white text
+
+You can customize the CSS to fit your desired design.
